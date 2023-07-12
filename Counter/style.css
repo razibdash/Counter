@@ -1,0 +1,73 @@
+p{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background:tomato;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.myAdd{
+    background: blue;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: .5s;
+   
+}
+.myMinus{
+    background: blue;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+.myReset{
+    background: blue;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 138px;
+    left: 40%;
+    cursor: pointer;
+    transition: .5s;
+}
+.counter{
+    width: 400px;
+    height: 300px;
+    background: black;
+    padding: 50px;
+    border-radius: 0px 200px 0px 200px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    color: white;
+    margin-top: 50px;
+    box-shadow: 5px 10px 12px #534e4e;
+}
+.myAdd:hover{
+ background: rgb(4, 4, 156);
+}
+.myMinus:hover{
+    background: rgb(4, 4, 156);
+}
+
+.myReset:hover{
+    background: rgb(4, 4, 156);
+}
